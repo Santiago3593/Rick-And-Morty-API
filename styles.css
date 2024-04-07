@@ -1,0 +1,43 @@
+:root {
+  color-scheme: dark;
+}
+body{
+  margin: 0;
+  font-family: montserrat;
+}
+h1 {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(235, 235, 235);
+  height: 30vh;
+  color: rgb(37, 37, 37);
+  font-size: 4em;
+  margin: 0;
+}
+#container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+  gap: 70px;
+  margin: 20vh 20vw; 
+}
+article {
+  border-radius: 20px;
+  background-color: rgb(43, 43, 43);
+  overflow: hidden;
+}
+img {
+  width: 100%;
+}
+h2 {
+  text-align: center;
+}
+p {
+  text-align: center;
+}
+article p:nth-child(4), article p:nth-child(6) {
+  color: gray
+}
+article p:nth-child(5), article p:nth-child(7) {
+  font-size: .9em;
+}
